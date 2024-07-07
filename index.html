@@ -226,10 +226,10 @@ function myfun(){
     var tamount = document.getElementById('loan-amount');
     var trate = document.getElementById('Interset-amount');
     var b = document.getElementById('total-amount');
-tamount.innerHTML = amount;
-trate.innerHTML=rate;
+tamount.innerHTML ="$"+ amount;
+trate.innerHTML="$"+rate;
 r = parseInt(amount) * parseInt(rate);
-b.innerHTML = r;
+b.innerHTML = "$"+r;
     
 }
             </script>
