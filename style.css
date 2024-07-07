@@ -1,0 +1,330 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header{
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+}
+@media only screen and (min-width:551px) and (max-width:1100px){
+    .sec-2-boxes{
+        width: 45% !important;
+    }
+}
+header{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+*{
+    scroll-behavior: smooth;
+
+}
+body{
+    font-family: "Roboto Condensed", sans-serif;
+}
+header a{
+    text-decoration: none;
+color: #000;
+font-weight: 400;
+}
+header button{
+outline: none;
+border: none;
+padding: 0px 30px;
+border-radius: 4px;
+height: 38px;
+color: #fff;
+background-color: #e87502;
+font-weight: 600;
+}
+header button:hover{
+background-color: #fff;
+border: 1px solid #e87502;
+color: #e87502;
+transition: all 0.4s ease;
+}
+.respo-header{
+    display: none;
+    height: 80px;
+}
+@media only screen and (min-width:300px) and (max-width:1100px)
+{
+    .respo-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px;
+    }
+    .respo-header i{
+        font-size: 40px;
+        color: #e87502;
+    }
+    .header{
+        display: none;
+    }
+}
+.section-1{
+    padding: 0px;
+    height: 500px;
+    background: url('web-header-COLLAGE-DARKENED.jpg');
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+.section-1 .container{
+    padding-top: 100px;
+}
+ h2{
+    font-weight: 900;
+font-size: 28px;
+color: #fff;
+}
+ h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: #e87502;
+    margin-top: 5px;
+}
+p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+section{
+    padding: 50px 0px;
+}
+.sec-2-boxes{
+    padding: 12px 20px 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 30%;
+border-radius: 8px;
+    text-align: center;
+
+ 
+}
+.sec-2-boxes:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.sec-2-boxes h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+.sec-2-boxes p{
+    font-size: 18px;
+    color: #000;
+}
+.section-3{
+    background-color: #e87502;
+  
+}
+.section-3 h1{
+    color: #000;
+    font-size: 30px;
+}
+.section-3 h2{
+    color: #000;
+    font-size: 19px;
+}
+.section-3 p{
+    color: #000;
+}
+.section-3 button{
+height: 35px;
+width: 120px;
+background-color: #e87502;
+color: #000;
+font-weight: 600;
+border: 1.5px solid #000;
+}
+.section-3 button:hover{
+    background-color: #000;
+    color: #e87502; transition: all 0.3s ease-in-out;
+}
+.secton-4 h2{
+    color: #000;
+    font-size: 40px;
+
+    text-transform: capitalize;
+}
+.calculator-header{
+    height: 40px;
+width: 100%;
+background-color: #000;
+color: #fff;
+text-align: center;
+padding-top: 8px;
+
+}
+.calculator h6{
+    font-size: 19px;
+  font-weight: 400;
+}
+.secton-4{
+    background-color: #ededed !important;
+}
+.calculator{
+    background-color: #fff;
+}
+.calculator-body{
+    padding: 50px 140px;
+}
+.cal-inp{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.cal-inp label{
+    font-size: 22px;
+    font-weight: 300;
+}
+.cal-inp input 
+
+{
+    font-weight: 300;
+}
+.cal-inp select 
+
+{
+    font-weight: 300;
+}
+.cal-footer{
+    display: flex;
+text-align: center;
+padding: 0px 0px 15px 0px;
+
+}
+.cal-footer p{
+    font-weight: 300;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 0px;
+}
+.cal-footer h5{
+color: #e87502;
+font-size: 35px;
+    font-weight: 600;
+}
+.section-5 h2{
+    color: #000;
+}
+.section-5 button{
+    height: 35px;
+    width: 120px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid black;
+    font-weight: 400;
+    
+    
+    }
+    .section-5 button:hover{
+        background-color: #e87502;
+        color: #fff;
+        border: none;
+        transition: all 0.3s ease-in-out;
+    }
+    .offcanvas-body li{
+        list-style: none;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 1.1px;
+        padding: 15px 2px;
+        border-bottom: 1px solid grey;
+    }
+    .offcanvas-body ul{
+        padding: 0px;
+        margin-top: 10px;
+    }
+    .offcanvas-body button{
+        outline: none;
+border: none;
+padding: 0px 30px;
+border-radius: 4px;
+height: 38px;
+color: #fff;
+width: 100%;
+background-color: #e87502;
+font-weight: 600;
+    }
+    @media only screen and (min-width:300px) and (max-width:550px)
+    {
+        .sec-2-boxes{
+            width: 100%;
+        }
+        .sec-2-boxes:hover{
+            transform: scale(1) !important;
+        }
+    .sec-3-banner{
+        display: none !important;
+    }
+    .section-3 h1{
+        width: auto !important;
+    }
+    .secton-4 h2{
+        font-size: 30px;
+    }
+    .calculator-body{
+        padding: 50px 10px;
+    }
+    .cal-inp{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .cal-inp input{
+        width: 100% !important;
+    }
+    .cal-inp select{
+        width: 100% !important;
+    }
+    .cal-footer{
+        flex-wrap: wrap;
+
+    }
+.section-5 h1{
+    font-size: 30px !important;
+}
+.section-5 p{
+    font-size: 16px;
+}
+.section-5 input{
+    width: 100% !important;
+}
+.section-5 button{
+    width: 100% !important;
+}.footer-1{
+    margin-top: 20px;
+}
+footer img{
+    height: 140px;
+}
+footer{
+    padding: 30px 0px !important;
+}
+    }
+    .section-5 p{
+        color: #000;
+    }
+footer{
+    padding: 50px 0px;
+    background-color: #e87502;
+}
+footer li{
+    color: #fff;
+    list-style: none;
+}
+footer ul{
+    padding: 0px;
+}
+footer i{
+    color: #fff;
+    font-size: 20px;
+
+}
+footer img{
+filter: brightness(75%);
+}
